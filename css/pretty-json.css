@@ -10,14 +10,14 @@
     background-color:#fff;
 }
 .node-content-wrapper ul{
-    border-left:1px dotted #ccc;
+    border-left:1px dotted #454545;
     list-style:none;
     padding-left:25px;
     margin:0px;
 }
 .node-content-wrapper ul li{
     list-style:none;
-    border-bottom:0; 
+    border-bottom:0;
     padding-bottom:0
 }
 .node-hgl-path{
@@ -36,14 +36,26 @@
 /* leaf */
 .leaft-container{
     width:100%;
-    max-width:300px;
+    /*max-width:500px;*/
     height:100%;
 }
 
 .title{ color:#ccc;}
-.string{ color:#080;}
+.string{ color:#60b760;}
 .number{ color:#ccaa00;}
-.boolean{ color:#1979d3;}
+.boolean{ color:#5697d4;}
 .date{ color:#aa6655;}
 .null{ color:#ff5050;}
 /* eof leaf */
+
+/*EDITS*/
+body {
+    background-color: #282C34;
+    color: #aeaeae;
+    font-size: 14px;
+}
+
+#input {
+    background-color: #dbdfe6;
+    outline: none;
+}
